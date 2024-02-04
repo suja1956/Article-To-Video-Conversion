@@ -1,0 +1,25 @@
+.my-form {
+  max-width: 400px;
+  /* Set the maximum width of the form */
+  margin: 0 auto;
+  /* Center-align the form */
+}
+
+.form-label {
+  font-weight: bold;
+  /* Make labels bold */
+}
+
+.form-control {
+  border: 1px solid #ccc;
+  /* Add a border to input fields */
+  padding: 8px;
+  /* Add some padding to input fields */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  /* Change the button background color */
+  color: #fff;
+  /* Change the button text color */
+}

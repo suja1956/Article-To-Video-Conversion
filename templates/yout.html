@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video</title>
+</head>
+<body>
+    <form action="/video" method="GET">
+        <input type="text" name="customkey" value="{{custom_key}}">
+        <label for="lang">Select a target language:</label>
+        <select id="language" name="language">
+            <option value="hindi">Hindi</option>
+            <option value="marathi">Marathi</option>
+            <option value="urdu">Urdu</option>
+            <option value="gujrati">Gujju</option>
+            <option value="bengali">bengali</option>
+            <option value="telugu">telugu</option>
+            <option value="kannada">kannada</option>
+            <option value="malayalam">malayalam</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+   
+</body>
+</html>
